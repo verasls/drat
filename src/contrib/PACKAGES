@@ -1,0 +1,7 @@
+Package: accdata
+Version: 0.1.0
+Depends: R (>= 2.10)
+Imports: impactr
+License: MIT + file LICENSE
+MD5sum: f9879400219bfd951cc5efe3709eee57
+NeedsCompilation: no
