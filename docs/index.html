@@ -25,17 +25,15 @@
         <div class="col-md-8">
           <h2>Packages</h2>
           <ul>
-              <li><code>accdata</code> (v0.1.0, <a href="https://github.com/verasls/accdata" class="text-info"><i class="fa fa-github"></i></a>): Accelerometer data intended to be used with <a href="https://lveras.com/impactr"><code>impactr</code></a> package</li>
+              <li><code>accdata</code> (v0.1.0, <a href="https://github.com/verasls/accdata" class="text-info"><i class="fa fa-github"></i></a>): Accelerometer data intended to be used with the <a href="https://lveras.com/impactr"><code>impactr</code></a> package</li>
           </ul>
 
           <h2>Installation</h2>
           <p>If <code>drat</code> is not installed, first install from
             CRAN with</p>
-          <pre>install.packages("drat")</pre>
-          <p>To install packages, run</p>
-          <pre>drat:::add("epiforecasts")</pre>
-          <p>after which packages can be installed as usual, for example:</p>
-          <pre>install.packages("EpiSoon")</pre>
+
+          <p>You can install the packages in this repository from source by using <code>install.packages()</code> and specifying the repository address through the <code>repos</code> argument. For example:</p>
+          <pre>install.packages("accdata", repos = "lveras.com/drat", type = "source")</pre>
         </div>
       </div>
     </div>
